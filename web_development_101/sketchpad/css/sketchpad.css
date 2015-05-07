@@ -1,0 +1,48 @@
+body {
+	background-color: #F0F0F0;
+}
+
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+
+.container {
+	margin: auto;
+	width: 960px;
+	height: 960px;
+}
+
+.box {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background-color: #ddd;
+	margin: 0;
+	border: 1px solid #222;
+	float: left;
+}
+
+.grid-controls {
+	width: 100%;
+	margin: 20px auto;
+	text-align: center;
+}
+
+.grid-controls a {
+	background-color: #3E474E;
+	color: #fff;
+	font-size: 1.5em;
+	padding: 10px 30px;
+	line-height: 50px;
+	margin: 25px auto;
+	border-radius: 5px;
+	font-family: Helvetica, Arial, sans-serif;
+	text-decoration: none;
+	transition: all 0.2s;
+}
+
+.grid-controls a:hover {
+	background-color: #E43B3A;
+}
+
+
