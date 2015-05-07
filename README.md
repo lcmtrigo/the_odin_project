@@ -1,4 +1,4 @@
-# google-homepage
-A replica of Google's home page. A project from The Odin Project's Web Development 101 course.
+# the_odin_project
+Projects I made following The Odin Project's Web Development curriculum.
 
 http://www.theodinproject.com/
