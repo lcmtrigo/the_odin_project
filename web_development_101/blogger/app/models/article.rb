@@ -7,9 +7,7 @@ class Article < ActiveRecord::Base
 		:content_type => ["image/jpg", "image/jpeg", "image/png"]
 
 	def tag_list
-		self.tags.collect do |tag|
-			tag.name
-		end.join(", ")
+		self.tags.collect{ |tag| tag.name }.join(", ")
 	end
 
 	def tag_list=(tags_string)
