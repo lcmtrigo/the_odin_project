@@ -4,6 +4,7 @@ def encrypt(msg, key)
 	msg.chars.map { |c| encrypted.fetch(c, " ") }
 end
 
+# input
 print "Enter your message: "
 msg = gets.chomp
 print "Enter an encryption key: "
